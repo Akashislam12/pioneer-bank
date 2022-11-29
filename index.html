@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>pioneer project</title>
+</head>
+<body>
+    <div id="login-area" class="login-area">
+        <h1 class="text-center">Wellcome To Pioneer Bank</h1>
+        <div id="submit-area" class="submit-area">
+            <h4>Login</h4>
+            <input type="text" class="form-control" placeholder="Enter Your Name">
+            <br>
+            <input type="password" class="form-control" placeholder="Enter Your Password">
+            <br>
+            <button id="Login" class="btn btn-success">Enter</button>
+        </div>
+    </div>
+
+
+    <div id="tranjection-area">
+        <div class="row">
+            <div class="col-md-4" >
+               <div class="diposit status">
+                <h4>Deposit</h4>
+                <h1>$<span id="dipositcurrent">00</span></h1>
+               </div>
+            </div>
+            <div class="col-md-4" >
+                <div class="withdrow status">
+                    <h4>Withdrow</h4>
+                    <h1>$<span id="withdrowamount">00</span></h1>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance status">
+                    <h4>Balnce</h4>
+                    <h1>$<span id="balanceamount">1280</span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+               <div class="submit-area">
+                <h4>Deposit</h4>
+                <input id="depositNumber" type="text" class="form-control" placeholder="$ amount You can Diposit">
+                <br>
+                <button id="depositBtn" class="btn btn-success">Deposit</button>
+               </div>
+            </div>
+            <div class="col-md-6">
+              <div class="submit-area">  
+                <h4>Withdrow</h4>
+                <input id="withdrowNumber" type="text" class="form-control" placeholder="$ amount You can withdrow">
+                <br>
+                <button id="withdrowBtn" class="btn btn-success">Withdrow</button>
+            </div>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>

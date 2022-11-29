@@ -1,0 +1,35 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    padding: 100px;
+   
+}
+.submit-area{
+    margin-top: 40px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 30px;
+}
+#tranjection-area{
+    display: none;
+}
+
+
+.status{
+    margin: 0 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.diposit{
+    background-color: slateblue;
+}
+.withdrow{
+    background-color: lightcoral;
+}
+.balance{
+    background-color: orange;
+}
